@@ -31,3 +31,5 @@ async function validateAction (req, res, next){
         next()
     }
 }
+
+module.exports = {validateActionId, validateAction} 
